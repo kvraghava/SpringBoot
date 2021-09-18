@@ -1,0 +1,13 @@
+server.port: 9090
+
+my:
+  greeting : hello raghava
+  list.values : one,two,three, four
+  db.values: "{url:'oracle DB', username:'kvraghava',password:'raghava'}"
+
+db:
+  connection: "dev connection from out side"
+  port: 1521
+  host: 21.9.12
+
+management.endpoints.web.exposure.include: "*"
